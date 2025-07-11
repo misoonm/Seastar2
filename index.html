@@ -797,8 +797,8 @@
                         <label>الجنس</label>
                         <select class="form-control" name="gender">
                             <option value="">اختر...</option>
-                            <option value="male">ذكر</option>
-                            <option value="female">أنثى</option>
+                            <option value="ذكر">ذكر</option>
+                            <option value="أنثى">أنثى</option>
                         </select>
                     </div>
                     
@@ -827,19 +827,17 @@
                     
                     <div class="form-group">
                         <label>مجالات الخبرة الرئيسية <span class="required">*</span></label>
-                        <select class="form-control" name="expertise" multiple required>
-                            <option value="home-services">خدمات منزلية</option>
-                            <option value="education">تعليم وتدريب</option>
-                            <option value="it">تكنولوجيا معلومات</option>
-                            <option value="design">تصميم وإبداع</option>
-                            <option value="health">صحة وجمال</option>
-                            <option value="crafts">حرف يدوية</option>
-                            <option value="consulting">استشارات مهنية</option>
-                            <option value="transport">نقل وتوصيل</option>
-                            <option value="marketing">تسويق رقمي</option>
-                            <option value="writing">كتابة وترجمة</option>
+                        <select class="form-control" name="expertise" required>
+                            <option value="">اختر مجال خبرتك...</option>
+                            <option value="خدمات منزلية">خدمات منزلية</option>
+                            <option value="تعليم وتدريب">تعليم وتدريب</option>
+                            <option value="تكنولوجيا معلومات">تكنولوجيا معلومات</option>
+                            <option value="تصميم وإبداع">تصميم وإبداع</option>
+                            <option value="صحة وجمال">صحة وجمال</option>
+                            <option value="حرف يدوية">حرف يدوية</option>
+                            <option value="استشارات مهنية">استشارات مهنية</option>
+                            <option value="نقل وتوصيل">نقل وتوصيل</option>
                         </select>
-                        <span class="form-hint">اضغط مع الاستمرار على زر Ctrl لتحديد أكثر من مجال</span>
                     </div>
                     
                     <div class="form-group">
@@ -852,10 +850,10 @@
                         <label>مستوى الخبرة <span class="required">*</span></label>
                         <select class="form-control" name="experienceLevel" required>
                             <option value="">اختر مستوى خبرتك...</option>
-                            <option value="beginner">مبتدئ</option>
-                            <option value="intermediate">متوسط</option>
-                            <option value="expert">خبير</option>
-                            <option value="professional">محترف</option>
+                            <option value="مبتدئ">مبتدئ</option>
+                            <option value="متوسط">متوسط</option>
+                            <option value="خبير">خبير</option>
+                            <option value="محترف">محترف</option>
                         </select>
                     </div>
                     
@@ -892,10 +890,10 @@
                         <label>نوع العمل المفضل <span class="required">*</span></label>
                         <select class="form-control" name="workType" required>
                             <option value="">اختر نوع العمل...</option>
-                            <option value="full-time">دوام كامل</option>
-                            <option value="part-time">دوام جزئي</option>
-                            <option value="freelance">عمل حر (فريلانس)</option>
-                            <option value="on-demand">عمل حسب الطلب</option>
+                            <option value="دوام كامل">دوام كامل</option>
+                            <option value="دوام جزئي">دوام جزئي</option>
+                            <option value="عمل حر (فريلانس)">عمل حر (فريلانس)</option>
+                            <option value="عمل حسب الطلب">عمل حسب الطلب</option>
                         </select>
                     </div>
                     
@@ -910,31 +908,31 @@
                             <div class="skill-card">
                                 <h4>الأيام المتاحة</h4>
                                 <div class="checkbox-group">
-                                    <input type="checkbox" id="saturday" name="availabilityDays" value="saturday">
+                                    <input type="checkbox" id="saturday" name="availabilityDays" value="السبت">
                                     <label for="saturday">السبت</label>
                                 </div>
                                 <div class="checkbox-group">
-                                    <input type="checkbox" id="sunday" name="availabilityDays" value="sunday">
+                                    <input type="checkbox" id="sunday" name="availabilityDays" value="الأحد">
                                     <label for="sunday">الأحد</label>
                                 </div>
                                 <div class="checkbox-group">
-                                    <input type="checkbox" id="monday" name="availabilityDays" value="monday">
+                                    <input type="checkbox" id="monday" name="availabilityDays" value="الإثنين">
                                     <label for="monday">الإثنين</label>
                                 </div>
                                 <div class="checkbox-group">
-                                    <input type="checkbox" id="tuesday" name="availabilityDays" value="tuesday">
+                                    <input type="checkbox" id="tuesday" name="availabilityDays" value="الثلاثاء">
                                     <label for="tuesday">الثلاثاء</label>
                                 </div>
                                 <div class="checkbox-group">
-                                    <input type="checkbox" id="wednesday" name="availabilityDays" value="wednesday">
+                                    <input type="checkbox" id="wednesday" name="availabilityDays" value="الأربعاء">
                                     <label for="wednesday">الأربعاء</label>
                                 </div>
                                 <div class="checkbox-group">
-                                    <input type="checkbox" id="thursday" name="availabilityDays" value="thursday">
+                                    <input type="checkbox" id="thursday" name="availabilityDays" value="الخميس">
                                     <label for="thursday">الخميس</label>
                                 </div>
                                 <div class="checkbox-group">
-                                    <input type="checkbox" id="friday" name="availabilityDays" value="friday">
+                                    <input type="checkbox" id="friday" name="availabilityDays" value="الجمعة">
                                     <label for="friday">الجمعة</label>
                                 </div>
                             </div>
@@ -945,9 +943,9 @@
                         <label>نطاق الخدمة الجغرافي <span class="required">*</span></label>
                         <select class="form-control" name="serviceArea" required>
                             <option value="">اختر نطاق الخدمة...</option>
-                            <option value="city">مدينتي فقط</option>
-                            <option value="region">منطقتي الجغرافية</option>
-                            <option value="country">جميع أنحاء البلاد</option>
+                            <option value="مدينتي فقط">مدينتي فقط</option>
+                            <option value="منطقتي الجغرافية">منطقتي الجغرافية</option>
+                            <option value="جميع أنحاء البلاد">جميع أنحاء البلاد</option>
                         </select>
                     </div>
                     
@@ -955,8 +953,8 @@
                         <label>هل تمتلك وسيلة نقل خاصة؟</label>
                         <select class="form-control" name="hasTransport">
                             <option value="">اختر...</option>
-                            <option value="yes">نعم</option>
-                            <option value="no">لا</option>
+                            <option value="نعم">نعم</option>
+                            <option value="لا">لا</option>
                         </select>
                     </div>
                     
@@ -964,9 +962,9 @@
                         <label>هل يمكنك العمل عن بعد؟ <span class="required">*</span></label>
                         <select class="form-control" name="canWorkRemotely" required>
                             <option value="">اختر...</option>
-                            <option value="yes">نعم</option>
-                            <option value="no">لا</option>
-                            <option value="sometimes">أحياناً</option>
+                            <option value="نعم">نعم</option>
+                            <option value="لا">لا</option>
+                            <option value="أحياناً">أحياناً</option>
                         </select>
                     </div>
                     
@@ -987,9 +985,9 @@
                         <label>طريقة الدفع المفضلة <span class="required">*</span></label>
                         <select class="form-control" name="paymentMethod" required>
                             <option value="">اختر طريقة الدفع...</option>
-                            <option value="bank-transfer">حوالة بنكية</option>
-                            <option value="cash">استلام نقدي</option>
-                            <option value="electronic-wallet">محفظة إلكترونية</option>
+                            <option value="حوالة بنكية">حوالة بنكية</option>
+                            <option value="استلام نقدي">استلام نقدي</option>
+                            <option value="محفظة إلكترونية">محفظة إلكترونية</option>
                         </select>
                     </div>
                     
@@ -1028,15 +1026,15 @@
                     </div>
                     
                     <div class="form-group">
-                        <label>كيف سمعت عنا؟</label>
+                        <label>كيف سمعت عننا؟</label>
                         <select class="form-control" name="heardAbout">
                             <option value="">اختر...</option>
-                            <option value="social-media">وسائل التواصل الاجتماعي</option>
-                            <option value="friend">صديق/معارف</option>
-                            <option value="advertisement">إعلان</option>
-                            <option value="search">محرك البحث</option>
-                            <option value="event">فعالية أو معرض</option>
-                            <option value="other">أخرى</option>
+                            <option value="وسائل التواصل الاجتماعي">وسائل التواصل الاجتماعي</option>
+                            <option value="صديق/معارف">صديق/معارف</option>
+                            <option value="إعلان">إعلان</option>
+                            <option value="محرك البحث">محرك البحث</option>
+                            <option value="فعالية أو معرض">فعالية أو معرض</option>
+                            <option value="أخرى">أخرى</option>
                         </select>
                     </div>
                     
@@ -1118,14 +1116,22 @@
             <p>&copy; 2025 SeaStar. جميع الحقوق محفوظة.</p>
         </div>
     </footer>
-
+    
+    <!-- تضمين مكتبة EmailJS -->
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    
     <script>
         // إدارة خطوات النموذج
         document.addEventListener('DOMContentLoaded', function() {
             const steps = document.querySelectorAll('.form-step');
             const stepDots = document.querySelectorAll('.step-dot');
             let currentStep = 1;
+            
+            // تهيئة EmailJS بمفتاح المستخدم
+            (function() {
+                // استبدل هذا المفتاح بالمفتاح الحقيقي من حسابك
+                emailjs.init("user_your_emailjs_userid");
+            })();
             
             // تحديث مؤشر الخطوات
             function updateStepIndicator() {
@@ -1168,23 +1174,58 @@
             form.addEventListener('submit', function(e) {
                 e.preventDefault();
                 
-                // إرسال النموذج إلى البريد الإلكتروني
+                // جمع بيانات النموذج
                 const formData = new FormData(form);
                 const data = {};
                 
                 for (const [key, value] of formData.entries()) {
-                    data[key] = value;
+                    // معالجة الحقول المتعددة (مثل أيام التوافر)
+                    if (key === 'availabilityDays') {
+                        if (!data[key]) {
+                            data[key] = [];
+                        }
+                        data[key].push(value);
+                    } else {
+                        data[key] = value;
+                    }
+                }
+                
+                // تحويل أيام التوافر إلى سلسلة نصية إذا كانت مصفوفة
+                if (Array.isArray(data.availabilityDays)) {
+                    data.availabilityDays = data.availabilityDays.join(', ');
                 }
                 
                 // إرسال البيانات إلى البريد الإلكتروني باستخدام EmailJS
-                emailjs.send('service_3kktbsm', 'template_iqhu08c', {
+                emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', {
                     to_email: 'prcmased@gmail.com',
-                    subject: 'طلب تسجيل جديد - صاحب مهارة',
-                    message: JSON.stringify(data, null, 2)
+                    subject: 'طلب تسجيل جديد - صاحب مهارة: ' + data.fullName,
+                    fullName: data.fullName,
+                    email: data.email,
+                    phone: data.phone,
+                    birthDate: data.birthDate,
+                    gender: data.gender,
+                    city: data.city,
+                    address: data.address,
+                    expertise: data.expertise,
+                    services: data.services,
+                    experienceLevel: data.experienceLevel,
+                    yearsOfExperience: data.yearsOfExperience,
+                    skillsDescription: data.skillsDescription,
+                    qualifications: data.qualifications,
+                    workType: data.workType,
+                    availabilityHours: data.availabilityHours,
+                    availabilityDays: data.availabilityDays,
+                    serviceArea: data.serviceArea,
+                    hasTransport: data.hasTransport,
+                    canWorkRemotely: data.canWorkRemotely,
+                    paymentMethod: data.paymentMethod,
+                    expectedPrice: data.expectedPrice,
+                    paymentDetails: data.paymentDetails,
+                    heardAbout: data.heardAbout,
+                    date: new Date().toLocaleString()
                 })
                 .then(function(response) {
                     console.log('تم الإرسال بنجاح:', response);
-                    // إظهار رسالة الشكر
                     form.style.display = 'none';
                     document.getElementById('thankYouMessage').style.display = 'block';
                 }, function(error) {
@@ -1218,12 +1259,6 @@
                 observer.observe(element);
             });
         });
-        
-        // تهيئة EmailJS
-        (function() {
-            emailjs.init("xxllExM3YZa2hDqzl"); // سيتم استبدال هذا بالمفتاح الفعلي في التنفيذ
-        })();
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 </body>
 </html>
